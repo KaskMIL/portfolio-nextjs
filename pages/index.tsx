@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import About from '../components/About'
+import WorkExperience from '../components/WorkExperience'
 
 
 export default function Home() {
@@ -25,6 +26,9 @@ export default function Home() {
       </section>
 
       {/* Experience */}
+      <section id='experiences' className='snap-center'>
+        <WorkExperience />
+      </section>
 
       {/* Skills */}
 
