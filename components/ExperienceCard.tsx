@@ -11,7 +11,7 @@ type Props = {}
 
 const ExperienceCard = (props: Props) => {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[390px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929]'>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[390px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 text-center md:opacity-40 hover:opacity-100 transition-opacity duration-200 cursor-pointer'>
       <motion.div
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.2 }}
@@ -26,9 +26,9 @@ const ExperienceCard = (props: Props) => {
         />
       </motion.div>
       <div className='px-0 md:px-10'>
-        <h3 className='text-4xl font-light'>Job title</h3>
-        <p className='text-2xl font-semibold mt-2 mb-2'>Enterprice title</p>
-        <div className='flex justify-evenly mb-2'>
+        <h3 className='text-5xl font-light'>Job title</h3>
+        <p className='text-2xl font-bold mt-1'>Enterprice title</p>
+        <div className='flex justify-evenly my-3'>
           {/* Tech used */}
           <Image
           src={html}
@@ -63,7 +63,7 @@ const ExperienceCard = (props: Props) => {
         />
         </div>
         <p className='uppercase mb-2'>Dates...</p>
-        <ul className='list-disc space-y-5 ml-5 text-lg'>
+        <ul className='space-y-5 ml-5 text-lg'>
           <li>Summary</li>
           <li>Summary</li>
           <li>Summary</li>
