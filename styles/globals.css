@@ -6,4 +6,28 @@
   .buttonHero {
     @apply md:px-6 py-2 px-3 border border-[#242424] rounded-full uppercase text-xs tracking-widest transition-all text-gray-500 hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40
   }
+
+  .contactInput {
+    @apply outline-none bg-slate-400/10 py-2 px-2
+  }
+
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
 }
