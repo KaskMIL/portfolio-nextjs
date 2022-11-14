@@ -11,6 +11,10 @@
     @apply outline-none bg-slate-400/10 py-2 px-2
   }
 
+  .skillsTitle {
+    @apply font-light text-2xl tracking-[10px] mb-3 underline decoration-[#F7AB0A] underline-offset-8
+  }
+
   .loader {
     width: 48px;
     height: 48px;
