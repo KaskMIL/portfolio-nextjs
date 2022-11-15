@@ -20,7 +20,9 @@ const projects = [
         names: 'Sass',
         url: 'https://res.cloudinary.com/dgpvrqyby/image/upload/v1668512169/icons8-sass-240_iiguuc.png',
       },
-    ]
+    ],
+    source: 'https://github.com/KaskMIL/book-a-jet-front-end',
+    site: 'https://easy-fly.netlify.app/',
   },
   {
     name: 'Spring Music Festival',
@@ -39,7 +41,9 @@ const projects = [
         names: 'Sass',
         url: 'https://res.cloudinary.com/dgpvrqyby/image/upload/v1668512169/icons8-sass-240_iiguuc.png',
       },
-    ]
+    ],
+    source: 'https://github.com/KaskMIL/spring_concert',
+    site: 'https://kaskmil.github.io/spring_concert/',
   },
   {
     name: 'Space-X Reservations',
@@ -58,7 +62,9 @@ const projects = [
         names: 'Sass',
         url: 'https://res.cloudinary.com/dgpvrqyby/image/upload/v1668512169/icons8-sass-240_iiguuc.png',
       },
-    ]
+    ],
+    source: 'https://github.com/KaskMIL/spacex-reservations',
+    site: 'https://lively-licorice-d3ec7e.netlify.app/',
   },
   {
     name: 'Awesome TV',
@@ -77,7 +83,9 @@ const projects = [
         names: 'Sass',
         url: 'https://res.cloudinary.com/dgpvrqyby/image/upload/v1668512169/icons8-sass-240_iiguuc.png',
       },
-    ]
+    ],
+    source: 'https://github.com/KaskMIL/awsome_tv',
+    site: 'https://kaskmil.github.io/awsome_tv/',
   },
   {
     name: 'Bookstore CMS',
@@ -96,7 +104,9 @@ const projects = [
         names: 'Sass',
         url: 'https://res.cloudinary.com/dgpvrqyby/image/upload/v1668512169/icons8-sass-240_iiguuc.png',
       },
-    ]
+    ],
+    source: 'https://github.com/KaskMIL/bookstore',
+    site: 'https://dev--bejewelled-llama-07d4a6.netlify.app/'
   }
 ];
 
