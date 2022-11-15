@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import projects from './ProjectsData'
 import ProjectCard from './ProjectCard';
@@ -22,9 +21,7 @@ const Projects = (props: Props) => {
         />
         ))}
       </div>
-      <div className='w-full absolute top-[30%] bg-[#F7AB0a]/10 opacity-50 left-0 h-[300px] -skew-y-12'>
-
-      </div>
+      <div className='w-full absolute top-[30%] bg-[#F7AB0a]/10 opacity-50 left-0 h-[300px] -skew-y-12' />
     </motion.div>
   )
 }
