@@ -15,6 +15,10 @@
     @apply font-light text-2xl tracking-[10px] mb-3 underline decoration-[#F7AB0A] underline-offset-8
   }
 
+  .projectLink {
+    @apply font-extralight tracking-[2px] bg-gray-800 px-3 py-1 border border-white rounded-lg text-white md:text-lg hover:bg-white hover:text-black hover:font-semibold
+  }
+
   .loader {
     width: 48px;
     height: 48px;
