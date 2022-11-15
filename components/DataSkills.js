@@ -31,6 +31,10 @@ const frameworksSkills = [
     url: 'https://res.cloudinary.com/dgpvrqyby/image/upload/v1668458752/icons8-tailwind-css-240_onffb4.png',
   },
   {
+    name: 'Sass',
+    url: 'https://res.cloudinary.com/dgpvrqyby/image/upload/v1668512169/icons8-sass-240_iiguuc.png',
+  },
+  {
     name: 'Bootstrap',
     url: 'https://res.cloudinary.com/dgpvrqyby/image/upload/v1668458752/icons8-bootstrap-240_gyhllc.png',
   },
