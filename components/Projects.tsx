@@ -17,6 +17,7 @@ const Projects = (props: Props) => {
       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 h-screen md:h-[80%] mt-[100px]'>
         {projects.map(project => (
           <ProjectCard
+          key={`${project.name}-card`}
           project={project}
         />
         ))}

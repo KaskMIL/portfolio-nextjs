@@ -60,6 +60,7 @@ const ProjectCard = ({ project }: Props) => {
       <div className='flex space-x-5 py-2 px-4 rounded-lg'>
         {project.tech?.map((technology: any) => (
           <Image
+            key={`${project.name}-img`}
             src={technology.url}
             alt='tech'
             width='50'
@@ -89,8 +90,8 @@ const ProjectCard = ({ project }: Props) => {
           <div
             className='flex justify-evenly'
           >
-            <a className='projectLink' target='_blank' href={project.source}>Source Code</a>
-            <a className='projectLink' target='_blank' href={project.site}>Site</a>
+            <a className='projectLink' target='_blank' rel='noreferrer' href={project.source}>Source Code</a>
+            <a className='projectLink' target='_blank' rel='noreferrer' href={project.site}>Site</a>
           </div>
         </Box>
       </Modal>
