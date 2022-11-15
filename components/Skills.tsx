@@ -15,10 +15,10 @@ const Skills = (props: Props) => {
     >
       <h3 className='absolute top-24 uppercase tracking-[15px] font-semibold text-gray-500 text-2xl'>Skills</h3>
 
-      <div className='space-y-10 text-center md:mt-[100px]'>
+      <div className='space-y-10 md:space-y-5 text-center md:mt-[100px] mt-[100px] bg-[#292929] shadow-sm shadow-stone-900 p-2'>
         <div>
           <h4 className='skillsTitle'>Languages</h4>
-          <div className='flex gap-5 items-center justify-center bg-[#292929] p-10 rounded-lg shadow-sm shadow-stone-900'>
+          <div className='flex gap-5 items-center justify-center bg-[#292929] p-10 md:p-5'>
           {languagesSkills.map((skill) => (
               <Skill
                 key={`${skill.name}-skill`}
@@ -30,7 +30,7 @@ const Skills = (props: Props) => {
         </div>
         <div>
           <h4 className='skillsTitle'>Frameworks</h4>
-          <div className='flex gap-5 items-center justify-center bg-[#292929] p-5 rounded-lg shadow-sm shadow-stone-900'>
+          <div className='flex gap-5 items-center justify-center bg-[#292929] p-5'>
           {frameworksSkills.map((skill) => (
               <Skill
                 key={`${skill.name}-skill`}
@@ -43,7 +43,7 @@ const Skills = (props: Props) => {
         </div>
         <div>
           <h4 className='skillsTitle'>Tools</h4>
-          <div className='flex gap-5 items-center justify-center bg-[#292929] p-5 rounded-lg shadow-sm shadow-stone-900'>
+          <div className='flex gap-5 items-center justify-center bg-[#292929] p-5'>
           {toolsSkills.map((skill) => (
               <Skill
                 key={`${skill.name}-skill`}
