@@ -21,7 +21,7 @@ const About = (props: Props) => {
         transition={{
           duration: 1.5
         }}
-        className='flex-shrink-0'
+        className='flex-shrink-0 mt-[100px]'
       >
         <Image
           src={frente}
@@ -33,7 +33,8 @@ const About = (props: Props) => {
       </motion.div>
       <div className='space-y-10 px-0 md:px-10'>
         <h4 className='text-4xl font-semibold underline decoration-[#F7AB0A] underline-offset-8'>Who am I</h4>
-        <p className='font-sm'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia autem id libero officiis perferendis odit magnam sint maiores vitae perspiciatis cupiditate asperiores numquam pariatur ipsa vel, rem recusandae commodi voluptate.</p>
+        <p className='font-sm'>Hey there, I'm <span className='font-bold text-[#F6AB0A] text-xl tracking-[2px]'>Tom</span>!<br/> Hard worker and passionate, self-learner and curious, I'm always looking for new opportunities to improve my skills and career. Spanish native and English fluent, Frameworks, and Technologies, fast learner, and adaptative.
+</p>
       </div>
     </div>
   )
