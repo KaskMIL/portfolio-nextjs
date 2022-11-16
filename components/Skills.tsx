@@ -35,7 +35,6 @@ const Skills = (props: Props) => {
               <Skill
                 key={`${skill.name}-skill`}
                 image={skill.url}
-                directionLeft={true}
                 name={skill.name}
               />
             ))}
@@ -43,7 +42,7 @@ const Skills = (props: Props) => {
         </div>
         <div>
           <h4 className='skillsTitle'>Tools</h4>
-          <div className='flex gap-5 items-center justify-center bg-[#292929] p-5'>
+          <div className='flex gap-5 items-center justify-center bg-[#292929] p-5 shrink-0'>
           {toolsSkills.map((skill) => (
               <Skill
                 key={`${skill.name}-skill`}

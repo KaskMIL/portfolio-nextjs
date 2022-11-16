@@ -48,10 +48,10 @@ const ContactForm = () => {
       }}
       transition={{ duration: 1 }}
       onSubmit={handleSubmit}
-      className='flex flex-col space-y-3 px-10 w-fit'
+      className='flex flex-col space-y-3 w-[325px] md:w-fit'
       id='contact-form'
     >
-        <div className='flex space-x-2'>
+        <div className='flex md:space-x-2 flex-col md:flex-row md:space-y-0 space-y-2'>
           <input className='contactInput' name='name' type="text" placeholder='Name' required />
           <ValidationError
             prefix='Name'

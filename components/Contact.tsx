@@ -33,7 +33,7 @@ const Contact = (props: Props) => {
                 className='w-[15px] h-[15px] animate-pulse text-[#F7AB0A]'
               />
             </div>
-            <p className='text-xl font-semibold tracking-[2px]'>Argentina, Buenos Aires</p>
+            <p className='text-xl font-semibold tracking-[2px]'>Buenos Aires, Argentina</p>
           </div>
           <div className='flex space-x-5 items-center'>
             <div className='border border-[#F7AB0A] animate-pulse rounded-full p-2'>
@@ -41,11 +41,10 @@ const Contact = (props: Props) => {
                 className='w-[15px] h-[15px] animate-pulse text-[#F7AB0A]'
               />
             </div>
-            <p className='text-xl font-semibold tracking-[2px]'>tomi.milanesi@gmail.com</p>
+            <p className='text-xl font-semibold tracking-[1px]'>tomimilanesi.dev@gmail.com</p>
           </div>
         </div>
       </div>
-
       <ContactForm />
     </motion.div>
   )
